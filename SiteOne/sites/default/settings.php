@@ -295,7 +295,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'nkDJCZopfzZ3PvGhBbJBNIp80EaRg_MsofqjUtn07ioT8YaeQNrj04muFONaBp6XEWOoe5XJ3w';
 
 /**
  * Deployment identifier.
@@ -763,3 +763,15 @@ $settings['file_scan_ignore_directories'] = [
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'pandabear',
+  'username' => 'pandabear',
+  'password' => 'password',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'standard';
+$config_directories['sync'] = 'sites/default/files/config_9ia9hN1Qk7D36mBfhsjTHMHAqSxWzP4QjP-KeXRRRJUk7ydy9ebUoJJH04ROWVpb_IO2agAg_w/sync';
