@@ -1,0 +1,6 @@
+Name: QBPL Hello World
+Description: This is just a Hello World module
+Package: Custom
+
+Type: module
+Core: 8.x
