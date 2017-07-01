@@ -1,0 +1,7 @@
+qbpl_helloworld.display:
+  path: '/helloworld'
+  defaults:
+    _controller: 'Drupal\qbpl_HelloWorld\Controller\HelloWorld::display'
+    _title: 'this is the title defined in the routing file'
+  requirements:
+    permission: 'access content'
